@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #05fc95;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.quote-list {
+  list-style-type: none;
+  padding: 0;
+  width: 80%;
+}
+
+.quote {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #ebd512;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.loading {
+  color: blue;
+  font-weight: bold;
+}
