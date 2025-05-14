@@ -10,7 +10,6 @@ async function fetchQuotes() {
     }
     const data = await response.json();
     quotes = data.quotes;
-    console.log(quotes);
     displayQuotes(quotes);
   } catch (error) {
     displayError('Error fetching quotes. Please try again later.');
